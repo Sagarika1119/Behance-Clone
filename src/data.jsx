@@ -34,9 +34,9 @@ import illustration3 from './assets/images/illustration3.jpg';
 
 
 
-export const behance_logo =  nature
-export const adobeCloud =  nature
-export const adobeLogo = nature
+// export const behance_logo =  nature
+// export const adobeCloud =  nature
+// export const adobeLogo = nature
 
 export const searchType = [
     {
