@@ -66,7 +66,7 @@ const List = ({selectedCategory, searchCategory }) => {
                                     onClick={()=> handleLike(item.id)}
                                     >
                                         <HeartIcon className="li-icon w-5 h-5"/>
-                                        {/* <div className="li-icon text-[#959595]">{item.felikeIcons}</div> */}
+                                        
                                         <span className="text-sm font-medium text-[#959595]">{item.sortItem["Most Appreciated"]}</span>
                                     </div>
                                     <div className="be-watch flex items-center">

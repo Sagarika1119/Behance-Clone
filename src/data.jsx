@@ -9,37 +9,34 @@ import { IoMdAttach } from 'react-icons/io';
 import { BsCreditCard2BackFill } from 'react-icons/bs';
 import { IoMdImages } from "react-icons/io";
 import { AiFillLike, AiTwotoneEye } from 'react-icons/ai';
-import image1 from "./assets/images/image1.png"
-import imag2 from "./assets/images/imag2.jpg"
-import image3 from "./assets/images/image3.jpeg"
-import image4 from "./assets/images/image4.jpeg"
-import image5 from "./assets/images/image5.jpg"
-import image6 from "./assets/images/image6.png"
-
-import image8 from "./assets/images/image8.png"
-import image9 from "./assets/images/image9.jpg"
-import images10 from "./assets/images/images10.jpeg"
-import image11 from "./assets/images/image11.jpg"
-import image12 from "./assets/images/image12.jpg"
-import images13 from "./assets/images/images13.jpeg"
-import image14 from "./assets/images/image14.jpg"
-import images15 from "./assets/images/images15.jpeg"
-import behanceLogo from "./assets/images/behance.png"
-import adobe from "./assets/images/adobe.png"
-import cloud from "./assets/images/creative-cloud.png"
-
-
-export const  behance_logo = behanceLogo;
-
-export const  adobe_cloude = cloud;
-
-export const adobeLogo= adobe;
+import img1 from './assets/images/img1.jpg';
+import img2 from './assets/images/img2.jpg';
+import img3 from './assets/images/img3.jpg';
+import img4 from './assets/images/img4.jpg';
+import img5 from './assets/images/img5.jpg';
+import img6 from './assets/images/img6.jpg';
+import img7 from './assets/images/img7.jpg';
+import img8 from './assets/images/img8.jpg';
+import img9 from './assets/images/img9.jpg';
+import img10 from './assets/images/img10.jpg';
+import img11 from './assets/images/img5.jpg';
+import img12 from './assets/images/img5.jpg';
+import img13 from './assets/images/img5.jpg';
+import uiux from './assets/images/uiux.jpg';
+import nature from './assets/images/nature.jpg';
+import nature2 from './assets/images/nature2.jpg';
+import illustration from './assets/images/illustration.jpg';
+import illustration2 from './assets/images/illustration2.jpg';
+import illustration3 from './assets/images/illustration3.jpg';
+import behancelogo from './assets/images/behancelogo.png';
+import adobe from './assets/images/adobe.png';
+import cloud from './assets/images/cloud.png';
 
 
 
-// export const behance_logo =  nature
-// export const adobeCloud =  nature
-// export const adobeLogo = nature
+export const behanceLogo =  behancelogo
+export const adobeCloud =  cloud
+export const adobeLogo = adobe
 
 export const searchType = [
     {
@@ -105,7 +102,7 @@ export const DataItems = [
       id: '1',
        
         featureImg:
-          image1,
+          img1,
         featureTxt: 'Freeze-dried Cat Treats—Wanpy',
         feLike: '456',
         felikeIcons: <AiFillLike />,
@@ -125,7 +122,7 @@ export const DataItems = [
       id: '2',
    
     featureImg:
-      imag2,
+      illustration,
     featureTxt: 'Illustrated by Sagarika',
     feLike: '899',
     felikeIcons: <AiFillLike />,
@@ -144,7 +141,7 @@ export const DataItems = [
       id: '3',
         
       featureImg:
-        image3,
+        img4,
       featureTxt: 'Innovatiove Website',
       feLike: '151',
       felikeIcons: <AiFillLike />,
@@ -163,7 +160,7 @@ export const DataItems = [
       id: '4',
        
       featureImg:
-        image4,
+        img6,
       featureTxt: 'UI-UX Designing',
       feLike: '694',
       felikeIcons: <AiFillLike />,
@@ -182,7 +179,7 @@ export const DataItems = [
       id: '5',
     
     featureImg:
-      image5,
+      nature,
     featureTxt: 'Natures serene beauty',
     feLike: '121',
     felikeIcons: <AiFillLike />,
@@ -201,7 +198,7 @@ export const DataItems = [
       id: '6',
      
     featureImg:
-      image6,
+      img2,
     featureTxt: 'Web Development ',
     feLike: '451',
     felikeIcons: <AiFillLike />,
@@ -220,7 +217,7 @@ export const DataItems = [
       id: '7',
       
     featureImg:
-      image8,
+      illustration2,
     featureTxt: 'A Magical View',
     feLike: '79',
     felikeIcons: <AiFillLike />,
@@ -239,7 +236,7 @@ export const DataItems = [
       id: '8',
       
     featureImg:
-      image9,
+      img7,
     featureTxt: 'A World of Design',
     feLike: '699',
     felikeIcons: <AiFillLike />,
@@ -258,7 +255,7 @@ export const DataItems = [
       id: '9',
       
     featureImg:
-      images10,
+      illustration3,
     featureTxt: 'Riped-Red Apple Illustration',
     feLike: '210',
     felikeIcons: <AiFillLike />,
@@ -277,7 +274,7 @@ export const DataItems = [
       id: '10',
       
     featureImg:
-    image11,
+      nature2,
     featureTxt: 'Green Nature',
     feLike: '163',
     felikeIcons: <AiFillLike />,
@@ -296,7 +293,7 @@ export const DataItems = [
       id: '11',
       
     featureImg:
-      image12,
+      img9,
     featureTxt: 'Artwork',
     feLike: '80',
     felikeIcons: <AiFillLike />,
@@ -313,9 +310,10 @@ export const DataItems = [
     },
     {
       id: '12',
-      
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
-      images13,
+      img11,
     featureTxt: 'Designing the World',
     feLike: '463',
     felikeIcons: <AiFillLike />,
@@ -332,9 +330,10 @@ export const DataItems = [
     },
     {
       id: '13',
-      
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
-      image14,
+      img13,
     featureTxt: 'Designing',
     feLike: '100',
     felikeIcons: <AiFillLike />,
@@ -351,9 +350,10 @@ export const DataItems = [
     },
     {
       id: '14',
-      
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
-      images15,
+      img2,
     featureTxt: 'Developing',
     feLike: '321',
     felikeIcons: <AiFillLike />,
@@ -370,9 +370,10 @@ export const DataItems = [
     },
     {
       id: '15',
-      
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
-      images15,
+      img8,
     featureTxt: 'Creative ',
     feLike: '21',
     felikeIcons: <AiFillLike />,
@@ -389,9 +390,10 @@ export const DataItems = [
     },
     {
       id: '16',
-       
+        // fePatch:
+        //   'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
         featureImg:
-          image14,
+          uiux,
         featureTxt: 'Hands-On ',
         feLike: '81',
         felikeIcons: <AiFillLike />,

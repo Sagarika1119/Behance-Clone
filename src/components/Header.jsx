@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoClose, IoSearchSharp } from 'react-icons/io5';
 import { MdArrowDropDown } from 'react-icons/md';
 import Autosuggest from 'react-autosuggest';
-import {  searchType,  boxItems, behance_logo, adobe_cloude, adobeLogo} from "../data";
+import { behanceLogo , searchType, adobeLogo, adobeCloud, boxItems} from "../data";
 import { BsList } from "react-icons/bs";
 import PropTypes from 'prop-types';
 
@@ -94,7 +94,7 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
                 <div className="navbar flex items-center justify-between">
                     <div className="brand-logo flex items-center">
             
-                        <img src={behance_logo} alt="behance-logo" className="w-auto h-[45px]"/> 
+                        <img src={behanceLogo} alt="behance-logo" className="w-auto h-6"/> 
                         <div className='page-links lg:ml-8 hidden lg:block'>
                         <ul className="flex items-center ">
                             <li className="mx-3 font-medium text-lg active "><a href="#">For you </a></li>
@@ -117,7 +117,7 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
             <span className='text-gray-300'></span>  
             <div className='free-btn mx-4 flex items-center border rounded-full px-4 py-1 '>
                 <div className='cloud-icon pr-2'>
-                    <img src={adobe_cloude} alt='Adobe Cloud' className='w-5 h-5'/>
+                    <img src={adobeCloud} alt='Adobe Cloud' className='w-5 h-5'/>
                 </div>
                 <a href='#'>Free Trial</a>
             </div>
