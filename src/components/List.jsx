@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { DataItems } from "../data";
 import { AiFillFolderOpen } from "react-icons/ai";
 import {HeartIcon} from '@heroicons/react/solid';
+import {motion} from 'framer-motion';
+import { MdOpacity } from "react-icons/md";
 
 
 const List = ({selectedCategory, searchCategory }) => {
@@ -34,7 +36,11 @@ const List = ({selectedCategory, searchCategory }) => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 sm:grid-cols2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {sortedItem.map((item, index) => (
-                           <div key={index} className="category-item bg-white rounded-md overflow-hidden shadow-md transition-transform duration-300 hover:shadow-dark transform hover:-translate-y-3">
+                           <div key={index} 
+                           className="category-item bg-white rounded-md overflow-hidden shadow-md transition-transform duration-150 hover:shadow-dark transform hover:-translate-y-3"
+                           initial={{opacity:0,y:50}}
+                           animate={{opacity:1,y:0}}
+                           transition={{duration:0.5,delay:index * 0.1}}>
                            <div className="relative">
                             
                             <img src={item.featureImg} alt={item.featureTxt} className="w-full h-48 object-cover"/>

@@ -28,13 +28,15 @@ import nature2 from './assets/images/nature2.jpg';
 import illustration from './assets/images/illustration.jpg';
 import illustration2 from './assets/images/illustration2.jpg';
 import illustration3 from './assets/images/illustration3.jpg';
+import behancelogo from './assets/images/behancelogo.png';
+import adobe from './assets/images/adobe.png';
+import adobe_cloud from './assets/images/adobe_cloud.png';
 
 
 
-
-export const behance_logo =  'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Behance_logo.svg/1280px-Behance_logo.svg.png';
-export const adobe_cloude =  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/640px-Adobe_Creative_Cloud_rainbow_icon.svg.png';
-export const adobeLogo = 'https://cdn.iconscout.com/icon/free/png-256/adobe-254-761738.png';
+export const behance_logo =  behancelogo
+export const adobeCloud =  adobe_cloud
+export const adobeLogo = adobe
 
 export const searchType = [
     {
@@ -98,8 +100,8 @@ export const boxItems = [
 export const DataItems = [
     {
       id: '1',
-        fePatch:
-          'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+        // fePatch:
+        //   'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
         featureImg:
           img1,
         featureTxt: 'Freeze-dried Cat Treats—Wanpy',
@@ -119,8 +121,8 @@ export const DataItems = [
       },
     {
       id: '2',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       illustration,
     featureTxt: 'Illustrated by Sagarika',
@@ -139,8 +141,8 @@ export const DataItems = [
     },
     {
       id: '3',
-        fePatch:
-        'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+        // fePatch:
+        // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
       featureImg:
         img4,
       featureTxt: 'Innovatiove Website',
@@ -159,8 +161,8 @@ export const DataItems = [
     },
     {
       id: '4',
-        fePatch:
-        'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+        // fePatch:
+        // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
       featureImg:
         img6,
       featureTxt: 'UI-UX Designing',
@@ -179,8 +181,8 @@ export const DataItems = [
     },
     {
       id: '5',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       nature,
     featureTxt: 'Natures serene beauty',
@@ -199,8 +201,8 @@ export const DataItems = [
     },
     {
       id: '6',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       img2,
     featureTxt: 'Web Development ',
@@ -219,8 +221,8 @@ export const DataItems = [
     },
     {
       id: '7',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       illustration2,
     featureTxt: 'A Magical View',
@@ -239,8 +241,8 @@ export const DataItems = [
     },
     {
       id: '8',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       img7,
     featureTxt: 'A World of Design',
@@ -259,8 +261,8 @@ export const DataItems = [
     },
     {
       id: '9',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       illustration3,
     featureTxt: 'Riped-Red Apple Illustration',
@@ -279,8 +281,8 @@ export const DataItems = [
     },
     {
       id: '10',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       nature2,
     featureTxt: 'Green Nature',
@@ -299,8 +301,8 @@ export const DataItems = [
     },
     {
       id: '11',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       img9,
     featureTxt: 'Artwork',
@@ -319,8 +321,8 @@ export const DataItems = [
     },
     {
       id: '12',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       img11,
     featureTxt: 'Designing the World',
@@ -339,8 +341,8 @@ export const DataItems = [
     },
     {
       id: '13',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       img13,
     featureTxt: 'Designing',
@@ -359,8 +361,8 @@ export const DataItems = [
     },
     {
       id: '14',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       img2,
     featureTxt: 'Developing',
@@ -379,8 +381,8 @@ export const DataItems = [
     },
     {
       id: '15',
-        fePatch:
-      'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      //   fePatch:
+      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
     featureImg:
       img8,
     featureTxt: 'Creative ',
@@ -399,8 +401,8 @@ export const DataItems = [
     },
     {
       id: '16',
-        fePatch:
-          'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+        // fePatch:
+        //   'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
         featureImg:
           uiux,
         featureTxt: 'Hands-On ',
