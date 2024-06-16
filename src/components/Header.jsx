@@ -94,7 +94,7 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
                 <div className="navbar flex items-center justify-between">
                     <div className="brand-logo flex items-center">
             
-                        <img src={behanceLogo} alt="behance-logo" className="w-auto h-6"/> 
+                        <img src={behanceLogo} alt="behance-logo" className="w-auto h-[40px]"/> 
                         <div className='page-links lg:ml-8 hidden lg:block'>
                         <ul className="flex items-center ">
                             <li className="mx-3 font-medium text-lg active "><a href="#">For you </a></li>
@@ -117,12 +117,12 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
             <span className='text-gray-300'></span>  
             <div className='free-btn mx-4 flex items-center border rounded-full px-4 py-1 '>
                 <div className='cloud-icon pr-2'>
-                    <img src={adobeCloud} alt='Adobe Cloud' className='w-5 h-5'/>
+                    <img src={adobeCloud} alt='Adobe Cloud' className='w-auto h-[30px]'/>
                 </div>
                 <a href='#'>Free Trial</a>
             </div>
             <div className='adobe-btn mx-4 flex items-center hover:opacity-70'>
-                <img src={adobeLogo} alt='Adobe Logo' className='w-5 h-5'/>
+                <img src={adobeLogo} alt='Adobe Logo' className='w-auto h-[30px]'/>
                 <a href='#' className='pl-1 font-bold text-black text-sm'>Adobe</a>
             </div>
           </div>
@@ -173,7 +173,7 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
                     <div className='t-icon'>
                         {tools.tagsIcon}
                     </div>
-                    <div className='tname px-2'>
+                    <div className='tname px-1'>
                         <p className='text-sm font-bold'>{tools.tags}</p>
                         </div>
                         <div className='dt-arrow'>
@@ -183,15 +183,15 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
             ))}
         </div>
         <div className="category-sort hidden lg:block">
-        <div className='relative'>
+        <div className='relative p-4 shadow-black rounded-none'>
           <label htmlFor="sortCategory"
-          className="absolute top-0 left-3 text-sm text-gray-900 px-1"
+          className="absolute top-5 left-3 text-sm text-gray-900 px-1"
            >
             {" "}
             Sort By
            </label>
             <select id="sortCategory"
-            className="rounded-full bg-[#f1f1f1] text-[#222] p-4 pl-10 pr-6  font-medium text-md cursor-pointer"
+            className=" bg-[#f1f1f1] text-[#222] p-4 pl-10 pr-6  font-medium text-md cursor-pointer"
             // id="category"
             value={selectedCategory}
             onChange={handleCategoryChange}
