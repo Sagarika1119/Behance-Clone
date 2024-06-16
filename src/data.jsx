@@ -28,15 +28,15 @@ import nature2 from './assets/images/nature2.jpg';
 import illustration from './assets/images/illustration.jpg';
 import illustration2 from './assets/images/illustration2.jpg';
 import illustration3 from './assets/images/illustration3.jpg';
-import behancelogo from './assets/images/behancelogo.png';
-import adobe from './assets/images/adobe.png';
-import adobe_cloud from './assets/images/adobe_cloud.png';
+// import behancelogo from './assets/images/behancelogo.png';
+// import adobe from './assets/images/adobe.png';
+// import adobe_cloud from './assets/images/adobe_cloud.png';
 
 
 
-export const behance_logo =  behancelogo
-export const adobeCloud =  adobe_cloud
-export const adobeLogo = adobe
+export const behance_logo =  img1
+export const adobeCloud =  img2
+export const adobeLogo = img1
 
 export const searchType = [
     {
