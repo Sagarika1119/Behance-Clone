@@ -5,7 +5,9 @@ import Autosuggest from 'react-autosuggest';
 import {  searchType,  boxItems} from "../data";
 import { BsList } from "react-icons/bs";
 import PropTypes from 'prop-types';
-import nature from '../assets/images/nature.jpg';
+import logo from '../assets/images/logo.png';
+import adobe from '../assets/images/adobe.png';
+import cloud from '../assets/images/cloud.png';
 
 
 const searchSuggestions = [
@@ -95,7 +97,7 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
                 <div className="navbar flex items-center justify-between">
                     <div className="brand-logo flex items-center">
             
-                        <img src={nature} alt="behance-logo" className="w-auto h-[45px]"/> 
+                        <img src={logo} alt="behance-logo" className="w-auto h-[45px]"/> 
                         <div className='page-links lg:ml-8 hidden lg:block'>
                         <ul className="flex items-center ">
                             <li className="mx-3 font-medium text-lg active "><a href="#">For you </a></li>
@@ -118,12 +120,12 @@ const Header= ({selectedCategory,setSelectedCategory, setSearchCategory})=>{
             <span className='text-gray-300'></span>  
             <div className='free-btn mx-4 flex items-center border rounded-full px-4 py-1 '>
                 <div className='cloud-icon pr-2'>
-                    <img src={nature} alt='Adobe Cloud' className='w-5 h-5'/>
+                    <img src={cloud} alt='Adobe Cloud' className='w-5 h-5'/>
                 </div>
                 <a href='#'>Free Trial</a>
             </div>
             <div className='adobe-btn mx-4 flex items-center hover:opacity-70'>
-                <img src={nature} alt='Adobe Logo' className='w-5 h-5'/>
+                <img src={adobe} alt='Adobe Logo' className='w-5 h-5'/>
                 <a href='#' className='pl-1 font-bold text-black text-sm'>Adobe</a>
             </div>
           </div>
