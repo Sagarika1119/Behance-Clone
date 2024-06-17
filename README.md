@@ -14,12 +14,20 @@ Vite: As the build tool for faster devlopment.
 Tailwind CSS: For styling in the components.
 React Icons: For iconography.
 
-## To run the project in your local system follow below steps
-Step 1: Clone this repository by writng below commands in your terminal
-        https://github.com/Sagarika1119/Behance-Clone.git
-        cd behanceClone
-        npm install
-Step 2: Run the project 
-        npm run dev
+## To run the project 
+Step 1: Clone this repository 
+        ```bash
+    git clone https://github.com/Sagarika1119/Behance-Clone.git
+    cd behanceClone
+    ```
+        
+Step 2: Install the project dependencies:
+```bash
+    npm install
+    ```
+Step 3: To run the project locally, use the following command:
+```bash
+npm run dev
+```
  
 ## Hosted Link for Behance-Clone: https://behance-clone-13jd.vercel.app/
