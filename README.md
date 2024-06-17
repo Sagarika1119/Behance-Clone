@@ -15,19 +15,19 @@ Tailwind CSS: For styling in the components.
 React Icons: For iconography.
 
 ## To run the project 
-Step 1: Clone this repository 
-        ```bash
-    git clone https://github.com/Sagarika1119/Behance-Clone.git
-    cd behanceClone
-    ```
-        
-Step 2: Install the project dependencies:
-```bash
-    npm install
-    ```
-Step 3: To run the project locally, use the following command:
-```bash
-npm run dev
-```
+1. Clone this repository 
+       ```bash
+   git clone https://github.com/Sagarika1119/Behance-Clone.git
+   cd behanceClone
+   ```  
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
  
 ## Hosted Link for Behance-Clone: https://behance-clone-13jd.vercel.app/
