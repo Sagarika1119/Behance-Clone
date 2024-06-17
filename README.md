@@ -21,7 +21,7 @@ React Icons: For iconography.
    ```
 2.Navigate to the project directory:
 ```bash
-cd BEHANCEcLONE
+cd behanceClone
 ```
 3. Install dependencies:
    ```bash
