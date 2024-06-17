@@ -1,6 +1,6 @@
-# React + Vite
+Behance Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simplified Behance landing page clone developed for an interview task at Simplrr. It includes essential features like category sorting, autocomplete search, and image liking. Users can filter projects by categories such as "Recommended" and "Curated," with real-time search suggestions for enhanced usability and interaction through image likes.
 
 Currently, two official plugins are available:
 
