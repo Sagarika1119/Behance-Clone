@@ -15,7 +15,7 @@ Tailwind CSS: For styling in the components.
 React Icons: For iconography.
 
 ## To run the project 
-1. Clone this repository 
+1. Clone this repository:
        ```bash
    git clone https://github.com/Sagarika1119/Behance-Clone.git
    cd behanceClone
