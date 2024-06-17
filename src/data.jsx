@@ -310,8 +310,7 @@ export const DataItems = [
     },
     {
       id: '12',
-      //   fePatch:
-      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      
     featureImg:
       img11,
     featureTxt: 'Designing the World',
@@ -330,8 +329,7 @@ export const DataItems = [
     },
     {
       id: '13',
-      //   fePatch:
-      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      
     featureImg:
       img13,
     featureTxt: 'Designing',
@@ -350,8 +348,7 @@ export const DataItems = [
     },
     {
       id: '14',
-      //   fePatch:
-      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+      
     featureImg:
       img2,
     featureTxt: 'Developing',
@@ -370,8 +367,7 @@ export const DataItems = [
     },
     {
       id: '15',
-      //   fePatch:
-      // 'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+     
     featureImg:
       img8,
     featureTxt: 'Creative ',
@@ -390,8 +386,7 @@ export const DataItems = [
     },
     {
       id: '16',
-        // fePatch:
-        //   'https://a5.behance.net/eb6198339b5bd9210ee85c5041d2da69b52ae5a5/img/galleries/icons/ribbons/1x/graphic-design.png?cb=264615658',
+  
         featureImg:
           uiux,
         featureTxt: 'Hands-On ',
