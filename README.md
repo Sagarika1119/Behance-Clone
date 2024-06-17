@@ -1,4 +1,4 @@
-Behance Landing Page Clone
+#Behance Landing Page Clone
 
 This project is a simplified Behance landing page clone developed for an interview task at Simplrr. It includes essential features like category sorting, autocomplete search, and image liking. Users can filter projects by categories such as "Recommended" and "Curated," with real-time search suggestions for enhanced usability and interaction through image likes.
 
